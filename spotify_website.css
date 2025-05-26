@@ -1,0 +1,149 @@
+.body{
+    margin: 0px;
+    /* 원래 기본값 8px이라 위아래양옆에 흰 여백 있던거 지움! */
+}
+
+.nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    height: 100%
+}
+
+.nav-right{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+}
+
+.nav-text{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav-text:hover{
+    color: #1ed760;
+}
+
+.img{
+    width: 160px;
+    height: auto;
+}
+.main{
+    height: 969px;
+    background-color:  rgb(41, 65, 171);
+}
+
+.footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 23px;
+}
+
+.footer-right{
+    display: flex;
+    gap: 40px;
+    padding: 23px;
+    align-self: flex-start;
+}
+
+.footer-img{
+    font-size: 30px;
+}
+
+.footer-img:hover{
+    filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(100deg);;
+    color: #1ed760;
+    cursor: pointer
+}
+
+.footer-main-text{
+    color: #919496;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.footer-sub-text{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.footer-sub-text:hover{
+    color: #1ed760;
+    cursor: pointer
+}
+
+.footer-align{
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-text-align{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-text-top-margin{
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.bottom-position{
+    display: flex;
+    align-items: flex-end;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -30px;
+}
+
+.footer-bottom-text{
+    color: #919496;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer-bottom-text:hover{
+    color: #1ed760;
+    cursor: pointer
+}
+
+.footer-bottom-text-right{
+    color: #919496;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.footer-top{
+    display: flex;
+    align-items: flex-end;
+}
+
+.bottom-text-margin{
+    margin-right: 25px;
+}

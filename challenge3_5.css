@@ -1,0 +1,29 @@
+.box1{
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box2{
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: purple;
+}
+
+
+.div2-position{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.div3-position{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

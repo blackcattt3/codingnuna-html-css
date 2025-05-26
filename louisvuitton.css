@@ -1,0 +1,68 @@
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover{
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+}
+
+.display{
+    display: flex;
+}
+
+.img-display{
+    margin-top: -20px;
+    margin-right: 4px;
+}
+
+footer{
+    background-color: black;
+    color: white
+}
+
+.first-line{
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a{
+    /* second-line 밑에 있는 a태그들에 스타일 적용 */
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:48em){
+    .first-line{
+        text-align:center;
+    }
+}
+/* 미디어쿼리!! 내가 설정해놓은 화면 사이즈 따라서 모바일 버전일때 디테일한 설정 가능
+0~48em 까지일때 발현해줄 스타일*/
+
+@media screen and (max-width: 48rem){
+    .second-line{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+
+.third-line{
+    display: none;
+    text-align:center;
+}
+
+@media screen and (max-width: 48em){
+    .third-line{
+        display: block;
+        /* block이 기본값 */
+    }
+}
+
+@media screen and (max-width: 48em){
+    .us-label{
+        display: none;
+    }
+}

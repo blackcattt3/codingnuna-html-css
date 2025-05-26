@@ -1,0 +1,48 @@
+body{
+    color: blue;
+}
+
+/* @media (조건)  조건이 600px보다 작아져야 핸드폰 화면이라고 본다.
+/* breakpoint */
+/* 화면이 최대 600px일때  모바일*/
+
+/* @media (max-width: 600px){
+    .cellphone{
+        color: red;
+    }
+}
+
+@media (min-width:600px) and (max-width:992px){
+    .tablet{
+        color: red;
+    }
+}
+
+@media (min-width:992px){
+    .desktop{
+        color: red;
+    }
+} */
+
+/* 화면이 세로로 기냐 가로로 기냐에 따라 적용 */
+/* landscape: 화면이 가로로 긴 상황일때 */
+@media (orientation:landscape){
+    body{
+    color: green;
+    display: flex;
+    }
+}
+
+/* 화면이 세로로 긴 상황일때 */
+@media (orientation:portrait){
+    body{
+        color: purple;
+    }
+}
+
+/* 프린트 될때 */
+@media print{
+    body{
+        color: orange;
+    }
+}

@@ -1,0 +1,191 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* 태그 그 자체에 바로 스타일 적용하는것이므로 . 지우기!  */
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item{
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover{
+    color: #1ed760;;
+}
+
+.img{
+    height: 44.99px;
+    width: 132px;
+}
+
+
+main{
+    height: 969px;
+    background-color:  rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.headline{
+    font-size: 146px;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: #1ed760;
+    position: relative;
+    left: 220px;
+    padding-bottom: 40px;
+}
+
+.headline-first{
+    position: relative;
+    left: -2.5em;
+    /* em: 현재 글씨체 기준!! 130px일때 1em은 130px; */
+}
+
+.subline{
+    font-size: 18px;
+    color: #1ed760;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding-bottom: 40px;
+    /* text-align: center; 써도 된다! 박스 안에 있는 텍스트만 가운데로 옮길때 */
+}
+
+.botton-style{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+.botton-style:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-position{
+    display: flex;
+}
+
+.footer-sub-position{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.footer-head{
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.footer-sub-text{
+    padding: 3px 0 15px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    margin: 80px 0 15px;
+}
+
+.icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    font-size: 24px;
+    color: white;
+}
+
+.icon:hover{
+    color: #1ed760
+}
+.icon-display{
+    display: flex;
+    margin-right: 15px;
+}
+
+.footer-second{
+    margin-bottom: -30px;
+}
+
+.footer-second-top{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-second-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    margin-right: 24px;
+    color: #919496;
+}
+
+.footer-second-text{
+    color: #919496;
+}
+
+.footer-first-text{
+    color: #919496;
+    font-size: 12px;
+}
+
+.footer-bottom{
+    margin-bottom: 30px;
+}

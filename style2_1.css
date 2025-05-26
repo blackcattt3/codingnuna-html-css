@@ -1,0 +1,21 @@
+.box{
+    border: 50px solid red;
+    width: 200px;
+    margin-bottom: 20px;
+    padding : 50px;
+
+    /*    padding-top :20px;
+    padding-bottom :20px;
+    padding-left :20px;
+    padding-right :20px; */
+}
+
+.green{
+    border-color : green;
+    /*display: none;  -  아예 사라짐!!*/
+    /*visibility: hidden; - 공간은 남아있고 사각형만 안보이게 된다.*/
+}
+
+.blue{
+    border: 50px solid blue;
+}

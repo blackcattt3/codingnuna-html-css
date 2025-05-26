@@ -1,0 +1,19 @@
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: purple;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    align-self: center;
+}
+
+.third{
+    align-self: flex-end;
+}

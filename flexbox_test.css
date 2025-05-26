@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+    position: fixed;
+    /* relative - 현재 있는 위치에서 이동
+    absolute - 절대값! 좌표처럼 생각
+    static(디폴트값): 디폴트값. left, right, top, bottom 사용 안됨. 
+    fixed: 스크롤 내리면 따라 내려온다. ex) 광고배너
+    sticky: fixed랑 비슷. but 스크롤 움직이기전에는 그자리에 있다가 스크롤 움직이면 따라움직임.*/
+    left: 30px;
+    top: 30px;
+}
+
+
+.purple{
+    background-color: purple;
+}

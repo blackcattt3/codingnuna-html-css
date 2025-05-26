@@ -1,0 +1,25 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: purple;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.position{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}

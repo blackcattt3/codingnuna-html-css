@@ -1,0 +1,44 @@
+.mother {
+    border: 1px solid red;
+    display: flex;
+    /*align-items: flex-end;*/
+    height: 100vh;
+    /*mother의 영역 화면 전체로*/
+    /*align-items에는 space-between, space-around 없음*/
+    /*justify-content는 디폴트값이 가로로 왔다갔다 한다!*/
+    flex-direction: column; /*세로모양으로!*/
+    /*justify-content: flex-end*/
+    /*justify-content: space-around;*/
+    justify-content: flex-end;
+  }
+  
+  /*
+  
+  justify-content : 가로 이동
+  align-items: 세로 이동.
+  약간 각각 x,y라고 생각하면 될듯?!
+  디폴트는 가로!
+  근데 flex-direction : column 쓰면 서로 바뀜.
+  justify-content가 세로이동, align-content가 가로 이동.
+  정렬도 원래 디폴트가 가로였는데 세로로 바뀜.
+  ... 가
+  .
+  .
+  .
+  이런 식으로 됌.
+  
+  */
+  
+  /*
+  .mother {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center; 
+  }
+  */
+  
+  .children {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+  }
